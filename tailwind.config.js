@@ -5,17 +5,17 @@ module.exports = {
     extend: {
       colors: {
         coffee: {
-          cream:           "#FDF6EE",
-          cream2:          "#F5EBD8",
-          caramel:         "#C8842A",
-          "caramel-soft":  "#E8A84A",
-          "brown-deep":    "#3B1F0A",
-          "brown-mid":     "#7A4A1E",
-          "brown-light":   "#B07840",
-          "text-mid":      "#6B4423",
-          muted:           "#A07850",
-          border:          "#E0C9A8",
-          card:            "#FFFDF9",
+          cream:          "#E8E0D5",   // warm off-white text
+          cream2:         "#2A2420",   // subtle surface hover
+          caramel:        "#D4915A",   // warm amber accent
+          "caramel-soft": "#C47A42",   // deeper amber
+          "brown-deep":   "#E8E0D5",   // primary text (light on dark)
+          "brown-mid":    "#B09880",   // secondary text
+          "brown-light":  "#8A7060",   // muted text
+          "text-mid":     "#C8B8A8",   // body text
+          muted:          "#7A6858",   // placeholder / subtle text
+          border:         "#3A3028",   // warm charcoal border
+          card:           "#242018",   // card surface
         },
       },
       fontFamily: {
