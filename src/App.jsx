@@ -4,10 +4,12 @@ import Certifications from "./components/Certifications";
 
 export default function App() {
   return (
-    <main>
-      <Hero avatarSrc="/gabriel.jpg" />
-      <CareerPath />
-      <Certifications />
-    </main>
+    <div className="min-h-screen bg-coffee-cream">
+      <main className="max-w-2xl mx-auto shadow-sm">
+        <Hero avatarSrc="/gabriel.jpg" />
+        <CareerPath />
+        <Certifications />
+      </main>
+    </div>
   );
 }
