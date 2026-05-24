@@ -8,4 +8,15 @@ export default {
     extend: {},
   },
   plugins: [],
+  colors: {
+  coffee: {
+    cream: "#FDF6EE",
+    cream2: "#F5EBD8",
+    // ... (see file for full list)
+  }
+},
+fontFamily: {
+  sans:  ["DM Sans", "sans-serif"],
+  serif: ["Playfair Display", "serif"],
+},
 }
